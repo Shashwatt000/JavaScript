@@ -5,7 +5,3 @@ function shashwat(ele)
 {
  console.log(ele.birthDate);
 }
-
-
-
-
