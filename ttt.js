@@ -1,11 +1,18 @@
 let sentences = [
-    "tom jack", "oggie olive", "sunny deol"
+    "JavaScript Array flatMap()", 
+    " ", 
+    "is", 
+    " ", 
+    "Awesome"
 ];
 
 // let words = sentences.map(e => e.split(" "));
 let words = sentences.flatMap(mum);
-function mum(e){
-    return e.split(" ");
+function mum(element){
+    
+        return element.split(" "); 
+    
+    
 }
     
 
